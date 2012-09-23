@@ -1,5 +1,8 @@
 {block:tumblrThemr}
   <link rel="stylesheet" href="themes/japanese/style/japanese.css" type="text/css" media="screen"/>
+  <!--[if IE]>
+  <link rel="stylesheet" href="themes/japanese/style/ie.css" type="text/css" media="screen"/>
+  <![endif]-->
   <style type="text/css">{CustomCSS}</style>
 
 
@@ -336,4 +339,6 @@
 
 
   <script type="text/javascript" src="themes/japanese/script/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="themes/japanese/script/japanese.js"></script>
+
 {/block:tumblrThemr}
