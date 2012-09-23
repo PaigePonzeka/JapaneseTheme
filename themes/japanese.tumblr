@@ -63,19 +63,27 @@
     <div id='header'>
       <h1>
         <a href='/' title='Go back home'>
+          
+
           <span>
-            {Title}
-            {block:Description}
-              <em>{Description}</em>
-            {/block:Description}
+            <div class="author_protrait">
+              <img src="{PortraitURL-64}" />
+            </div>
+             <div class="author_description">
+                {Title}
+                {block:Description}
+                  <em>{Description}</em>
+                {/block:Description}
+            </div>
           </span>
         </a>
       </h1>
       <div class="pages" style="display: none; {block:HasPages}display: block;{/block:HasPages}{block:AskEnabled}display: block;{/block:AskEnabled}{block:SubmissionsEnabled}display: block;{/block:SubmissionsEnabled}">
-        {block:HasPages}
-        {block:Pages}<a href="{URL}">{Label}</a>{/block:Pages}
+        <a href='/'>{lang:Home}</a> 
         {block:AskEnabled}<a href="/ask">{AskLabel}</a>{/block:AskEnabled}
         {block:SubmissionsEnabled}<a href="/submit">{SubmitLabel}</a>{/block:SubmissionsEnabled}
+        {block:HasPages}
+          {block:Pages}<a href="{URL}">{Label}</a>{/block:Pages}
         {/block:HasPages}
       </div>
       
@@ -172,7 +180,7 @@
             <hr />
           </div>
           {/block:Title}
-          {Video-500}
+          <div class="post-video">{Video-500}</div>
           {block:Caption}
           <div class='description'>{Caption}</div>
           {/block:Caption}
@@ -211,7 +219,9 @@
             {/block:Lines}
           </ul>
         </div>
-        <div class='permalink'>
+        
+      </div>
+      <div class='permalink'>
           <div class='wrapper'>
             <p>
               <a href='{Permalink}' title='{lang:Permalink}'><span>Overheard</span> <span class='right'>Overheard</span></a>
@@ -220,7 +230,6 @@
                   {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
           </div>
         </div>
-      </div>
     </div>
     {/block:Chat}
     {block:Audio}
@@ -243,7 +252,9 @@
           <div class='description'>{Caption}</div>
           {/block:Caption}
         </div>
-        <div class='permalink'>
+       
+      </div>
+       <div class='permalink'>
           <div class='wrapper'>
             <p>
               <a href='{Permalink}' title='{lang:Permalink}'><span>Recorded</span> <span class='right'>In Stereo</span></a>
@@ -252,7 +263,6 @@
                   {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
           </div>
         </div>
-      </div>
     </div>
     {/block:Audio}
     {block:Link}
@@ -317,17 +327,7 @@
           </li>
         </ul>
         {/block:Pagination}
-        <p>
-          <a href='/'>{lang:Home}</a> /
-          <a href='/archive'>{lang:Archive}</a> /
-          <a href='{RSS}'>{lang:RSS}</a>
-        </p>
-        <p style="font-size:8px;">
-          Original Theme by:
-          <a href='http://makenosound.com/'>Max</a>,
-           Recycled by:
-          <a href="http://dave.id.au">Dave</a>.
-        </p>
+       
       </div>
     </div>
 
@@ -336,5 +336,4 @@
 
 
   <script type="text/javascript" src="themes/japanese/script/jquery-1.8.2.min.js"></script>
-  <!--<script type="text/javascript" src="themes/japanese/japanese.js"></script>-->
 {/block:tumblrThemr}
