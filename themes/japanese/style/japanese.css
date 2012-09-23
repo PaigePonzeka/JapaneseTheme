@@ -1738,44 +1738,53 @@ p {
 }
 
 /* line 76, ../sass/japanese.sass */
+.japanese-saying {
+  width: 400px;
+  background: magenta;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 83, ../sass/japanese.sass */
 #header h1 {
   background: transparent;
   margin: 0 auto;
   width: 650px;
 }
-/* line 80, ../sass/japanese.sass */
+/* line 87, ../sass/japanese.sass */
 #header h1 a {
   color: #111111;
   display: block;
   height: 200px;
   text-decoration: none;
 }
-/* line 85, ../sass/japanese.sass */
+/* line 92, ../sass/japanese.sass */
 #header h1 a:hover {
   color: #666666;
 }
-/* line 87, ../sass/japanese.sass */
+/* line 94, ../sass/japanese.sass */
 #header h1 a span {
   display: table-cell;
   height: 200px;
   vertical-align: middle;
   width: 650px;
 }
-/* line 92, ../sass/japanese.sass */
+/* line 99, ../sass/japanese.sass */
 #header h1 a em {
   display: block;
   font-size: 0.8em;
   font-style: normal;
 }
 
-/* line 97, ../sass/japanese.sass */
+/* line 104, ../sass/japanese.sass */
 .pages {
   text-align: center;
   line-height: 1.8;
   background: #b9334c;
   padding: 15px 35px;
 }
-/* line 102, ../sass/japanese.sass */
+/* line 109, ../sass/japanese.sass */
 .pages a {
   color: #444444;
   font-size: 9px;
@@ -1791,7 +1800,7 @@ p {
   padding: 3px 7px;
   display: inline-block;
 }
-/* line 117, ../sass/japanese.sass */
+/* line 124, ../sass/japanese.sass */
 .pages a:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #aaaaaa));
   background-image: -webkit-linear-gradient(#ffffff, #aaaaaa);
@@ -1800,14 +1809,14 @@ p {
   background-image: linear-gradient(#ffffff, #aaaaaa);
 }
 
-/* line 121, ../sass/japanese.sass */
+/* line 128, ../sass/japanese.sass */
 #footer {
   background: #f0a6c7;
   margin: 0;
   color: #eeeeee;
   border-top: 6px solid #f0a6c7;
 }
-/* line 126, ../sass/japanese.sass */
+/* line 133, ../sass/japanese.sass */
 #footer .wrapper {
   background: #b9334c;
   margin: 0 auto 0;
@@ -1816,68 +1825,68 @@ p {
   width: 620px;
   zoom: 1;
 }
-/* line 133, ../sass/japanese.sass */
+/* line 140, ../sass/japanese.sass */
 #footer ul li {
   float: left;
   padding-top: 2.6em;
   width: 220px;
 }
-/* line 137, ../sass/japanese.sass */
+/* line 144, ../sass/japanese.sass */
 #footer ul li.page {
   font-size: 4.4em;
   padding-top: 0;
   width: 180px;
   text-shadow: #222222 0 2px 2px;
 }
-/* line 142, ../sass/japanese.sass */
+/* line 149, ../sass/japanese.sass */
 #footer ul li.newer {
   text-align: left;
 }
-/* line 144, ../sass/japanese.sass */
+/* line 151, ../sass/japanese.sass */
 #footer ul li.older {
   text-align: right;
 }
-/* line 146, ../sass/japanese.sass */
+/* line 153, ../sass/japanese.sass */
 #footer p {
   clear: both;
   text-align: center;
   font-size: 11px;
 }
-/* line 150, ../sass/japanese.sass */
+/* line 157, ../sass/japanese.sass */
 #footer a {
   color: #eeeeee;
   text-decoration: none;
   text-shadow: #555555 0 1px 1px;
 }
-/* line 154, ../sass/japanese.sass */
+/* line 161, ../sass/japanese.sass */
 #footer a:hover {
   color: white;
   text-shadow: 0.01em 0.01em 1em white;
 }
 
-/* line 158, ../sass/japanese.sass */
+/* line 165, ../sass/japanese.sass */
 .post {
   background: transparent;
   border-top: 6px #b9334c solid;
 }
-/* line 161, ../sass/japanese.sass */
+/* line 168, ../sass/japanese.sass */
 .post .wrapper {
   background: transparent;
   margin: 0 auto;
   padding: 1.2em 15px;
   width: 590px;
 }
-/* line 166, ../sass/japanese.sass */
+/* line 173, ../sass/japanese.sass */
 .post .permalink {
   background: #c56c36;
 }
-/* line 168, ../sass/japanese.sass */
+/* line 175, ../sass/japanese.sass */
 .post .permalink .wrapper {
   background: #c56c36 url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   padding: 0 15px;
   position: relative;
 }
-/* line 172, ../sass/japanese.sass */
+/* line 179, ../sass/japanese.sass */
 .post .permalink p {
   font-size: 0.7em;
   margin: 0;
@@ -1885,7 +1894,7 @@ p {
   text-align: right;
   padding: 1em 0;
 }
-/* line 178, ../sass/japanese.sass */
+/* line 185, ../sass/japanese.sass */
 .post .permalink p a {
   border: 0;
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
@@ -1896,289 +1905,289 @@ p {
   text-shadow: #555555 0 1px 1px;
   zoom: 1;
 }
-/* line 187, ../sass/japanese.sass */
+/* line 194, ../sass/japanese.sass */
 .post .permalink p a:hover {
   color: white !important;
   text-shadow: 0.01em 0.01em 1em white;
 }
-/* line 190, ../sass/japanese.sass */
+/* line 197, ../sass/japanese.sass */
 .post .permalink p a span {
   display: block;
   float: left;
   padding: 20px 35px 20px 0;
   width: 260px;
 }
-/* line 195, ../sass/japanese.sass */
+/* line 202, ../sass/japanese.sass */
 .post .permalink p a .right {
   padding: 20px 0 20px 35px;
   text-align: left;
 }
-/* line 198, ../sass/japanese.sass */
+/* line 205, ../sass/japanese.sass */
 .post .permalink .wrapper {
   padding-bottom: 0;
 }
-/* line 200, ../sass/japanese.sass */
+/* line 207, ../sass/japanese.sass */
 .post img, .post object, .post embed {
   border: 1px #d0cdce solid;
   padding: 4px;
 }
-/* line 203, ../sass/japanese.sass */
+/* line 210, ../sass/japanese.sass */
 .post a:hover img {
   background: white;
   border-color: #398c81;
 }
-/* line 206, ../sass/japanese.sass */
+/* line 213, ../sass/japanese.sass */
 .post .description {
   padding: 10px;
   margin-top: 10px;
   background: #eeeeee;
 }
 
-/* line 211, ../sass/japanese.sass */
+/* line 218, ../sass/japanese.sass */
 .poss .description p:first-child {
   margin-top: 0;
 }
 
-/* line 215, ../sass/japanese.sass */
+/* line 222, ../sass/japanese.sass */
 .post .content {
   border-left: 15px solid #f0a6c7;
   border-right: 15px solid #f0a6c7;
 }
-/* line 218, ../sass/japanese.sass */
+/* line 225, ../sass/japanese.sass */
 .post p a, .post li a, .post .description a {
   border-bottom: 1px #c8c8ad solid;
   color: #bc3d0e;
   text-decoration: none;
 }
-/* line 222, ../sass/japanese.sass */
+/* line 229, ../sass/japanese.sass */
 .post p a:hover, .post li a:hover, .post .description a:hover {
   color: black !important;
 }
-/* line 224, ../sass/japanese.sass */
+/* line 231, ../sass/japanese.sass */
 .post blockquote {
   border-left: 1px #9d9f9a dotted;
   margin: 0 15px 0.5em;
   padding: 0 0 0 10px;
 }
-/* line 228, ../sass/japanese.sass */
+/* line 235, ../sass/japanese.sass */
 .post blockquote p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding: 0;
 }
-/* line 232, ../sass/japanese.sass */
+/* line 239, ../sass/japanese.sass */
 .post ul {
   list-style: disc;
   margin-right: 16px;
   margin-left: 16px;
 }
-/* line 236, ../sass/japanese.sass */
+/* line 243, ../sass/japanese.sass */
 .post ol {
   margin-right: 16px;
   margin-left: 20px;
 }
-/* line 240, ../sass/japanese.sass */
+/* line 247, ../sass/japanese.sass */
 .post.quote {
   border-color: #325c95;
   background: #eeeeee;
 }
-/* line 243, ../sass/japanese.sass */
+/* line 250, ../sass/japanese.sass */
 .post.quote blockquote {
   border: 0;
   font-size: 2em;
   line-height: 1.2;
   padding: 0;
 }
-/* line 248, ../sass/japanese.sass */
+/* line 255, ../sass/japanese.sass */
 .post.quote blockquote.short {
   font-size: 2em;
 }
-/* line 250, ../sass/japanese.sass */
+/* line 257, ../sass/japanese.sass */
 .post.quote blockquote.medium {
   font-size: 1.7em;
 }
-/* line 252, ../sass/japanese.sass */
+/* line 259, ../sass/japanese.sass */
 .post.quote blockquote.long {
   font-size: 1.4em;
 }
-/* line 254, ../sass/japanese.sass */
+/* line 261, ../sass/japanese.sass */
 .post.quote blockquote p {
   padding-bottom: 0;
 }
-/* line 256, ../sass/japanese.sass */
+/* line 263, ../sass/japanese.sass */
 .post.quote p a, .post.quote li a, .post.quote .source a {
   color: #005a9e;
 }
-/* line 258, ../sass/japanese.sass */
+/* line 265, ../sass/japanese.sass */
 .post.quote .permalink {
   background: #2c5082;
 }
-/* line 260, ../sass/japanese.sass */
+/* line 267, ../sass/japanese.sass */
 .post.quote .permalink .wrapper {
   background-color: #2c5082;
   background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
 }
-/* line 263, ../sass/japanese.sass */
+/* line 270, ../sass/japanese.sass */
 .post.quote .permalink p a {
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
-/* line 266, ../sass/japanese.sass */
+/* line 273, ../sass/japanese.sass */
 .post.text {
   background: #eeeeee;
 }
-/* line 269, ../sass/japanese.sass */
+/* line 276, ../sass/japanese.sass */
 .post.photo {
   border-color: #299370;
   text-align: center;
 }
-/* line 272, ../sass/japanese.sass */
+/* line 279, ../sass/japanese.sass */
 .post.photo h2 a:hover, .post.photo p a, .post.photo li a, .post.photo .description a {
   color: #036f5d;
 }
-/* line 274, ../sass/japanese.sass */
+/* line 281, ../sass/japanese.sass */
 .post.photo .permalink {
   background: #237f61;
 }
-/* line 276, ../sass/japanese.sass */
+/* line 283, ../sass/japanese.sass */
 .post.photo .permalink .wrapper {
   background-color: #237f61;
   background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
 }
-/* line 279, ../sass/japanese.sass */
+/* line 286, ../sass/japanese.sass */
 .post.photo .permalink p a {
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
-/* line 282, ../sass/japanese.sass */
+/* line 289, ../sass/japanese.sass */
 .post.video {
   border-color: #ca3d53;
 }
-/* line 284, ../sass/japanese.sass */
+/* line 291, ../sass/japanese.sass */
 .post.video h2 a:hover, .post.video p a, .post.video li a, .post.video .description a {
   color: #cd2855;
 }
-/* line 286, ../sass/japanese.sass */
+/* line 293, ../sass/japanese.sass */
 .post.video .permalink {
   background: #ba3348;
 }
-/* line 288, ../sass/japanese.sass */
+/* line 295, ../sass/japanese.sass */
 .post.video .permalink .wrapper {
   background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #ba3348;
 }
-/* line 291, ../sass/japanese.sass */
+/* line 298, ../sass/japanese.sass */
 .post.video .permalink p a {
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
-/* line 293, ../sass/japanese.sass */
+/* line 300, ../sass/japanese.sass */
 .post.video .post-video {
   width: 500px;
   margin: 0 auto;
 }
-/* line 297, ../sass/japanese.sass */
+/* line 304, ../sass/japanese.sass */
 .post.link {
   border-color: #58bc33;
   background: #eeeeee;
 }
-/* line 300, ../sass/japanese.sass */
+/* line 307, ../sass/japanese.sass */
 .post.link h2 a:hover, .post.link p a, .post.link li a, .post.link .description a {
   color: #a40e12;
 }
-/* line 302, ../sass/japanese.sass */
+/* line 309, ../sass/japanese.sass */
 .post.link .permalink {
   background: #4fa82e;
 }
-/* line 304, ../sass/japanese.sass */
+/* line 311, ../sass/japanese.sass */
 .post.link .permalink .wrapper {
   background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #4fa82e;
 }
-/* line 307, ../sass/japanese.sass */
+/* line 314, ../sass/japanese.sass */
 .post.link .permalink p a {
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
-/* line 310, ../sass/japanese.sass */
+/* line 317, ../sass/japanese.sass */
 .post.conversation {
   border-color: #325c95;
   background: #eeeeee;
 }
-/* line 313, ../sass/japanese.sass */
+/* line 320, ../sass/japanese.sass */
 .post.conversation h2 a:hover, .post.conversation p a, .post.conversation li a, .post.conversation .description a {
   color: #d5be16;
 }
-/* line 315, ../sass/japanese.sass */
+/* line 322, ../sass/japanese.sass */
 .post.conversation .permalink {
   background: #2c5082;
 }
-/* line 317, ../sass/japanese.sass */
+/* line 324, ../sass/japanese.sass */
 .post.conversation .permalink .wrapper {
   background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #2c5082;
 }
-/* line 320, ../sass/japanese.sass */
+/* line 327, ../sass/japanese.sass */
 .post.conversation .permalink p a {
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
-/* line 322, ../sass/japanese.sass */
+/* line 329, ../sass/japanese.sass */
 .post.conversation ul {
   list-style: none;
   margin-left: 0;
 }
-/* line 325, ../sass/japanese.sass */
+/* line 332, ../sass/japanese.sass */
 .post.conversation ul li {
   padding: 5px 8px 4px;
 }
-/* line 327, ../sass/japanese.sass */
+/* line 334, ../sass/japanese.sass */
 .post.conversation ul li span {
   color: #444444;
 }
-/* line 329, ../sass/japanese.sass */
+/* line 336, ../sass/japanese.sass */
 .post.conversation ul li.user_1 {
   background: #9abc34;
   border-left: 1px #cfcfaf dotted;
 }
-/* line 332, ../sass/japanese.sass */
+/* line 339, ../sass/japanese.sass */
 .post.conversation ul li.user_2 {
   background: transparent;
   border-left: 0;
 }
-/* line 335, ../sass/japanese.sass */
+/* line 342, ../sass/japanese.sass */
 .post.conversation ul li.user_3 {
   background: #f7fdaf;
   border-left: 1px #c3c3ab dotted;
 }
-/* line 338, ../sass/japanese.sass */
+/* line 345, ../sass/japanese.sass */
 .post.audio {
   border-color: #ca3d53;
 }
-/* line 340, ../sass/japanese.sass */
+/* line 347, ../sass/japanese.sass */
 .post.audio h2 a:hover, .post.audio p a, .post.audio li a, .post.audio .description a {
   color: #006e9d;
 }
-/* line 342, ../sass/japanese.sass */
+/* line 349, ../sass/japanese.sass */
 .post.audio .permalink {
   background: #ba3348;
 }
-/* line 344, ../sass/japanese.sass */
+/* line 351, ../sass/japanese.sass */
 .post.audio .permalink .wrapper {
   background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #ba3348;
 }
-/* line 347, ../sass/japanese.sass */
+/* line 354, ../sass/japanese.sass */
 .post.audio .permalink p a {
   background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
-/* line 349, ../sass/japanese.sass */
+/* line 356, ../sass/japanese.sass */
 .post.audio .audio_player {
   margin: 10px auto;
   text-align: center;
 }
 
-/* line 353, ../sass/japanese.sass */
+/* line 360, ../sass/japanese.sass */
 .source {
   margin: 0 80px;
 }
 
-/* line 356, ../sass/japanese.sass */
+/* line 363, ../sass/japanese.sass */
 #pagewrap {
   width: 650px;
   float: left;
@@ -2187,12 +2196,12 @@ p {
   margin: 0;
 }
 
-/* line 363, ../sass/japanese.sass */
+/* line 370, ../sass/japanese.sass */
 .text img {
   max-width: 100%;
 }
 
-/* line 367, ../sass/japanese.sass */
+/* line 374, ../sass/japanese.sass */
 .post .permalink .wrapper a.comments {
   color: #444444;
   font-size: 9px;
@@ -2210,7 +2219,7 @@ p {
   top: 27px;
   right: 30px;
 }
-/* line 383, ../sass/japanese.sass */
+/* line 390, ../sass/japanese.sass */
 .post .permalink .wrapper a.notes {
   color: #444444;
   font-size: 9px;
@@ -2229,7 +2238,7 @@ p {
   left: 30px;
 }
 
-/* line 400, ../sass/japanese.sass */
+/* line 407, ../sass/japanese.sass */
 ol.notes {
   color: #444444;
   font-size: 9px;
@@ -2241,7 +2250,7 @@ ol.notes {
   list-style-type: none;
   clear: both;
 }
-/* line 410, ../sass/japanese.sass */
+/* line 417, ../sass/japanese.sass */
 ol.notes a img.avatar {
   max-width: 16px;
   border-width: 0px;
@@ -2249,39 +2258,39 @@ ol.notes a img.avatar {
   padding: 0;
   float: left;
 }
-/* line 416, ../sass/japanese.sass */
+/* line 423, ../sass/japanese.sass */
 ol.notes span.action {
   float: left;
   padding-top: 1px;
   line-height: 18px;
 }
-/* line 420, ../sass/japanese.sass */
+/* line 427, ../sass/japanese.sass */
 ol.notes .clear {
   clear: both;
   height: 1px;
 }
-/* line 423, ../sass/japanese.sass */
+/* line 430, ../sass/japanese.sass */
 ol.notes blockquote {
   padding: 4px 10px;
   margin: 7px 0px 0px 25px;
   font-weight: normal;
 }
-/* line 427, ../sass/japanese.sass */
+/* line 434, ../sass/japanese.sass */
 ol.notes blockquote a {
   text-decoration: none;
 }
-/* line 429, ../sass/japanese.sass */
+/* line 436, ../sass/japanese.sass */
 ol.notes .answer_content {
   font-weight: normal;
 }
 
-/* line 432, ../sass/japanese.sass */
+/* line 439, ../sass/japanese.sass */
 #disqus_thread {
   font-size: 0.5em;
   text-align: left !important;
   padding: 0 5px;
 }
-/* line 436, ../sass/japanese.sass */
+/* line 443, ../sass/japanese.sass */
 #disqus_thread a {
   color: #444444;
   text-align: left !important;
