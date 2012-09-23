@@ -1,10 +1,16 @@
 @import "reset"
 @import "cherryblossum"
 
+/* Colors */
+$pale-pink: #F0A6c7 
+$dark-pink: #b9334c
+$pale-green: #F7FDAF
+$pale-yellow: #9abc34
+$orange: #c56c36
+$width: 650px
 
+$permalink-bg: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat
 body
-  color: #191919
-  /* Change to 0.875em if you're not me :p
   font: normal 0.875em / 1.4 Palatino, Georgia, "Times New Roman", serif
   line-height: 1.4
 
@@ -44,13 +50,12 @@ p
     display: none
 
 #header
-  background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg)
+  background: $dark-pink
   h1
-    background: #bc3d0e url(http://static.tumblr.com/ro5gmuq/TOgkkujgf/ko3lqkpvh62hu3ae5ip11zpj_400.jpg)
+    background: $pale-pink
     margin: 0 auto
-    width: 540px
+    width: 640px
     a
-      background: url(http://static.tumblr.com/rlw59xo/Esel1n1hd/title.png) no-repeat center 20px
       color: #111
       display: block
       height: 200px
@@ -60,9 +65,8 @@ p
       span
         display: table-cell
         height: 200px
-        padding-left: 170px
         vertical-align: middle
-        width: 200px
+        width: $width
       em
         display: block
         font-size: 0.8em
@@ -71,7 +75,7 @@ p
 .pages
   text-align: center
   line-height: 1.8
-  background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg)
+  background: $dark-pink
   padding: 15px 35px
   a
     color: #444
@@ -93,7 +97,7 @@ p
   margin: 0
   color: #eee
   .wrapper
-    background: #bc3d0e url(http://static.tumblr.com/ro5gmuq/TOgkkujgf/ko3lqkpvh62hu3ae5ip11zpj_400.jpg)
+    background: #eee
     margin: 0 auto 0
     overflow: hidden
     padding: 10px 0 20px
@@ -125,15 +129,15 @@ p
       text-shadow: 0.01em 0.01em 1em #FFFFFF
 
 .post
-  background: #d4d4cb url(http://static.tumblr.com/ro5gmuq/e0ykkujj3/ko3lqkpvh62hchwniinby4mr_400.jpg) top repeat-x
-  border-top: 6px #c45d30 solid
+  background: $pale-pink
+  border-top: 6px $dark-pink solid
   .wrapper
-    background: #ecece2 url(http://static.tumblr.com/ro5gmuq/ZSSkkujk0/ko3lqkpvh62h949njlofkumx_400.jpg) top repeat-x
+    background: #eee
     margin: 0 auto
     padding: 1.2em 15px
-    width: 510px
+    width: $width - 60px
   .permalink
-    background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg)
+    background: #f0f url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg)
     .wrapper
       background: #bc3d0e url(http://static.tumblr.com/ro5gmuq/TOgkkujgf/ko3lqkpvh62hu3ae5ip11zpj_400.jpg)
       padding: 0 15px
@@ -146,7 +150,7 @@ p
       padding: 1em 0
       a
         border: 0
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
         color: #eee !important
         display: block
         text-decoration: none
@@ -225,7 +229,7 @@ p
         background-color: #005a9e
         background-image: url(http://static.tumblr.com/ro5gmuq/hl7kkujnt/ko3lqkpvh62hmphqop3xnyxi_400.jpg)
       p a
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
   &.photo
     border-color: #036f5d
     text-align: center
@@ -237,7 +241,7 @@ p
         background-color: #036f5d
         background-image: url(http://static.tumblr.com/ro5gmuq/mcXkkuksl/ko3lqkpvh62hpkzqaibyngui_400.jpg)
       p a
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
   &.video
     border-color: #cd2855
     h2 a:hover, p a, li a, .description a
@@ -248,7 +252,7 @@ p
         background-image: url(http://static.tumblr.com/ro5gmuq/8V9kkukvg/ko3lqkpvh62hywr73kpitjcn_100.jpg)
         background-color: #cd2855
       p a
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
   &.link
     border-color: #a40e12
     h2 a:hover, p a, li a, .description a
@@ -259,7 +263,7 @@ p
         background-image: url(http://static.tumblr.com/ro5gmuq/iXMkkuky6/ko3lqkpvh62i24cuciwg7ril_400.jpg)
         background-color: #a40e12
       p a
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
   &.conversation
     border-color: #d5be16
     h2 a:hover, p a, li a, .description a
@@ -270,7 +274,7 @@ p
         background-image: url(http://static.tumblr.com/ro5gmuq/rSmkkul1l/ko3lqkpvh62i4x45d3dfvgkj_400.jpg)
         background-color: #d5be16
       p a
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
     ul
       list-style: none
       margin-left: 0
@@ -297,7 +301,7 @@ p
         background-image: url(http://static.tumblr.com/ro5gmuq/PeNkkul3x/ko3lqkpvh62hhconp4bqp28j_400.jpg)
         background-color: #006e9d
       p a
-        background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat
+        background: $permalink-bg
     .audio_player
       margin: 10px auto
       text-align: center
@@ -306,11 +310,11 @@ p
   margin: 0 80px
 
 #pagewrap
-  margin: 0px 0px 0px 150px
-  width: 550px
+  width: $width
   float: left
   position: absolute
   z-index: 100
+  margin: 0
 
 .text img
   max-width: 100%

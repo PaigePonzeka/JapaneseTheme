@@ -1678,15 +1678,14 @@ blockquote, q {
   }
 }
 
-/* line 5, ../sass/japanese.sass */
+/* Colors */
+/* line 13, ../sass/japanese.sass */
 body {
-  color: #191919;
-  /* Change to 0.875em if you're not me :p */
   font: normal 0.875em/1.4 Palatino, Georgia, "Times New Roman", serif;
   line-height: 1.4;
 }
 
-/* line 11, ../sass/japanese.sass */
+/* line 17, ../sass/japanese.sass */
 h1, h2, h3, h4, h5, .post.quote blockquote, .permalink p, .source, #footer {
   font-family: "GillSans", "Gill Sans", Helvetica;
   letter-spacing: 0.14em;
@@ -1696,23 +1695,23 @@ h1, h2, h3, h4, h5, .post.quote blockquote, .permalink p, .source, #footer {
   text-transform: uppercase;
 }
 
-/* line 19, ../sass/japanese.sass */
+/* line 25, ../sass/japanese.sass */
 h2 {
   font-size: 1.28em;
   line-height: 1.33;
   padding: 0;
 }
-/* line 23, ../sass/japanese.sass */
+/* line 29, ../sass/japanese.sass */
 h2 a {
   color: #242424;
   text-decoration: none;
 }
-/* line 26, ../sass/japanese.sass */
+/* line 32, ../sass/japanese.sass */
 h2 a:hover {
   color: #c55e31;
 }
 
-/* line 29, ../sass/japanese.sass */
+/* line 35, ../sass/japanese.sass */
 #rightbar {
   float: left;
   margin-top: 150px;
@@ -1721,67 +1720,65 @@ h2 a:hover {
   position: absolute;
 }
 
-/* line 36, ../sass/japanese.sass */
+/* line 42, ../sass/japanese.sass */
 p {
   padding: 0.5em 0 0.5em;
 }
 
-/* line 39, ../sass/japanese.sass */
+/* line 45, ../sass/japanese.sass */
 .hr {
   border-bottom: 1px #9d9f9a solid;
   margin: 0 auto 1em;
   width: 140px;
 }
-/* line 43, ../sass/japanese.sass */
+/* line 49, ../sass/japanese.sass */
 .hr hr {
   display: none;
 }
 
-/* line 46, ../sass/japanese.sass */
-#header {
-  background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg);
-}
-/* line 48, ../sass/japanese.sass */
-#header h1 {
-  background: #bc3d0e url(http://static.tumblr.com/ro5gmuq/TOgkkujgf/ko3lqkpvh62hu3ae5ip11zpj_400.jpg);
-  margin: 0 auto;
-  width: 540px;
-}
 /* line 52, ../sass/japanese.sass */
+#header {
+  background: #b9334c;
+}
+/* line 54, ../sass/japanese.sass */
+#header h1 {
+  background: #f0a6c7;
+  margin: 0 auto;
+  width: 640px;
+}
+/* line 58, ../sass/japanese.sass */
 #header h1 a {
-  background: url(http://static.tumblr.com/rlw59xo/Esel1n1hd/title.png) no-repeat center 20px;
   color: #111111;
   display: block;
   height: 200px;
   text-decoration: none;
 }
-/* line 58, ../sass/japanese.sass */
+/* line 63, ../sass/japanese.sass */
 #header h1 a:hover {
   color: #666666;
 }
-/* line 60, ../sass/japanese.sass */
+/* line 65, ../sass/japanese.sass */
 #header h1 a span {
   display: table-cell;
   height: 200px;
-  padding-left: 170px;
   vertical-align: middle;
-  width: 200px;
+  width: 650px;
 }
-/* line 66, ../sass/japanese.sass */
+/* line 70, ../sass/japanese.sass */
 #header h1 a em {
   display: block;
   font-size: 0.8em;
   font-style: normal;
 }
 
-/* line 71, ../sass/japanese.sass */
+/* line 75, ../sass/japanese.sass */
 .pages {
   text-align: center;
   line-height: 1.8;
-  background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg);
+  background: #b9334c;
   padding: 15px 35px;
 }
-/* line 76, ../sass/japanese.sass */
+/* line 80, ../sass/japanese.sass */
 .pages a {
   color: #444444;
   font-size: 9px;
@@ -1798,83 +1795,83 @@ p {
   display: inline-block;
 }
 
-/* line 91, ../sass/japanese.sass */
+/* line 95, ../sass/japanese.sass */
 #footer {
   background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg);
   margin: 0;
   color: #eeeeee;
 }
-/* line 95, ../sass/japanese.sass */
+/* line 99, ../sass/japanese.sass */
 #footer .wrapper {
-  background: #bc3d0e url(http://static.tumblr.com/ro5gmuq/TOgkkujgf/ko3lqkpvh62hu3ae5ip11zpj_400.jpg);
+  background: #eeeeee;
   margin: 0 auto 0;
   overflow: hidden;
   padding: 10px 0 20px;
   width: 540px;
   zoom: 1;
 }
-/* line 102, ../sass/japanese.sass */
+/* line 106, ../sass/japanese.sass */
 #footer ul li {
   float: left;
   padding-top: 2.6em;
   width: 180px;
 }
-/* line 106, ../sass/japanese.sass */
+/* line 110, ../sass/japanese.sass */
 #footer ul li.page {
   font-size: 4.4em;
   padding-top: 0;
   width: 180px;
   text-shadow: #222222 0 2px 2px;
 }
-/* line 111, ../sass/japanese.sass */
+/* line 115, ../sass/japanese.sass */
 #footer ul li.newer {
   text-align: left;
 }
-/* line 113, ../sass/japanese.sass */
+/* line 117, ../sass/japanese.sass */
 #footer ul li.older {
   text-align: right;
 }
-/* line 115, ../sass/japanese.sass */
+/* line 119, ../sass/japanese.sass */
 #footer p {
   clear: both;
   text-align: center;
   font-size: 11px;
 }
-/* line 119, ../sass/japanese.sass */
+/* line 123, ../sass/japanese.sass */
 #footer a {
   color: #eeeeee;
   text-decoration: none;
   text-shadow: #555555 0 1px 1px;
 }
-/* line 123, ../sass/japanese.sass */
+/* line 127, ../sass/japanese.sass */
 #footer a:hover {
   color: white;
   text-shadow: 0.01em 0.01em 1em white;
 }
 
-/* line 127, ../sass/japanese.sass */
+/* line 131, ../sass/japanese.sass */
 .post {
-  background: #d4d4cb url(http://static.tumblr.com/ro5gmuq/e0ykkujj3/ko3lqkpvh62hchwniinby4mr_400.jpg) top repeat-x;
-  border-top: 6px #c45d30 solid;
+  background: #f0a6c7;
+  border-top: 6px #b9334c solid;
 }
-/* line 130, ../sass/japanese.sass */
+/* line 134, ../sass/japanese.sass */
 .post .wrapper {
-  background: #ecece2 url(http://static.tumblr.com/ro5gmuq/ZSSkkujk0/ko3lqkpvh62h949njlofkumx_400.jpg) top repeat-x;
+  background: #eeeeee;
   margin: 0 auto;
   padding: 1.2em 15px;
-  width: 510px;
+  width: 590px;
 }
-/* line 135, ../sass/japanese.sass */
+/* line 139, ../sass/japanese.sass */
 .post .permalink {
-  background: #92300d url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg);
+  background: magenta url(http://static.tumblr.com/ro5gmuq/svQkkujej/ko3lqkpvh62htiqhpwkcr0nd_400.jpg);
 }
-/* line 137, ../sass/japanese.sass */
+/* line 141, ../sass/japanese.sass */
 .post .permalink .wrapper {
   background: #bc3d0e url(http://static.tumblr.com/ro5gmuq/TOgkkujgf/ko3lqkpvh62hu3ae5ip11zpj_400.jpg);
   padding: 0 15px;
   position: relative;
 }
-/* line 141, ../sass/japanese.sass */
+/* line 145, ../sass/japanese.sass */
 .post .permalink p {
   font-size: 0.7em;
   margin: 0;
@@ -1882,10 +1879,10 @@ p {
   text-align: right;
   padding: 1em 0;
 }
-/* line 147, ../sass/japanese.sass */
+/* line 151, ../sass/japanese.sass */
 .post .permalink p a {
   border: 0;
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
   color: #eeeeee !important;
   display: block;
   text-decoration: none;
@@ -1893,286 +1890,286 @@ p {
   text-shadow: #555555 0 1px 1px;
   zoom: 1;
 }
-/* line 156, ../sass/japanese.sass */
+/* line 160, ../sass/japanese.sass */
 .post .permalink p a:hover {
   color: white !important;
   text-shadow: 0.01em 0.01em 1em white;
 }
-/* line 159, ../sass/japanese.sass */
+/* line 163, ../sass/japanese.sass */
 .post .permalink p a span {
   display: block;
   float: left;
   padding: 20px 35px 20px 0;
   width: 220px;
 }
-/* line 164, ../sass/japanese.sass */
+/* line 168, ../sass/japanese.sass */
 .post .permalink p a .right {
   padding: 20px 0 20px 35px;
   text-align: left;
 }
-/* line 167, ../sass/japanese.sass */
+/* line 171, ../sass/japanese.sass */
 .post .permalink .wrapper {
   padding-bottom: 0;
 }
-/* line 169, ../sass/japanese.sass */
+/* line 173, ../sass/japanese.sass */
 .post img, .post object, .post embed {
   border: 1px #d0cdce solid;
   padding: 4px;
 }
-/* line 172, ../sass/japanese.sass */
+/* line 176, ../sass/japanese.sass */
 .post a:hover img {
   background: white;
   border-color: #398c81;
 }
-/* line 175, ../sass/japanese.sass */
+/* line 179, ../sass/japanese.sass */
 .post .description {
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 10px;
 }
 
-/* line 180, ../sass/japanese.sass */
+/* line 184, ../sass/japanese.sass */
 .poss .description p:first-child {
   margin-top: 0;
 }
 
-/* line 184, ../sass/japanese.sass */
+/* line 188, ../sass/japanese.sass */
 .post p a, .post li a, .post .description a {
   border-bottom: 1px #c8c8ad solid;
   color: #bc3d0e;
   text-decoration: none;
 }
-/* line 188, ../sass/japanese.sass */
+/* line 192, ../sass/japanese.sass */
 .post p a:hover, .post li a:hover, .post .description a:hover {
   color: black !important;
 }
-/* line 190, ../sass/japanese.sass */
+/* line 194, ../sass/japanese.sass */
 .post blockquote {
   border-left: 1px #9d9f9a dotted;
   margin: 0 15px 0.5em;
   padding: 0 0 0 10px;
 }
-/* line 194, ../sass/japanese.sass */
+/* line 198, ../sass/japanese.sass */
 .post blockquote p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding: 0;
 }
-/* line 198, ../sass/japanese.sass */
+/* line 202, ../sass/japanese.sass */
 .post ul {
   list-style: disc;
   margin-right: 16px;
   margin-left: 16px;
 }
-/* line 202, ../sass/japanese.sass */
+/* line 206, ../sass/japanese.sass */
 .post ol {
   margin-right: 16px;
   margin-left: 20px;
 }
-/* line 205, ../sass/japanese.sass */
+/* line 209, ../sass/japanese.sass */
 .post.quote {
   border-color: #005a9e;
 }
-/* line 207, ../sass/japanese.sass */
+/* line 211, ../sass/japanese.sass */
 .post.quote blockquote {
   border: 0;
   font-size: 2em;
   line-height: 1.2;
   padding: 0;
 }
-/* line 212, ../sass/japanese.sass */
+/* line 216, ../sass/japanese.sass */
 .post.quote blockquote.short {
   font-size: 2em;
 }
-/* line 214, ../sass/japanese.sass */
+/* line 218, ../sass/japanese.sass */
 .post.quote blockquote.medium {
   font-size: 1.7em;
 }
-/* line 216, ../sass/japanese.sass */
+/* line 220, ../sass/japanese.sass */
 .post.quote blockquote.long {
   font-size: 1.4em;
 }
-/* line 218, ../sass/japanese.sass */
+/* line 222, ../sass/japanese.sass */
 .post.quote blockquote p {
   padding-bottom: 0;
 }
-/* line 220, ../sass/japanese.sass */
+/* line 224, ../sass/japanese.sass */
 .post.quote p a, .post.quote li a, .post.quote .source a {
   color: #005a9e;
 }
-/* line 222, ../sass/japanese.sass */
+/* line 226, ../sass/japanese.sass */
 .post.quote .permalink {
   background: #004e88 url(http://static.tumblr.com/ro5gmuq/uSokkujmp/ko3lqkpvh62hlvs9ksqdtzzj_400.jpg);
 }
-/* line 224, ../sass/japanese.sass */
+/* line 228, ../sass/japanese.sass */
 .post.quote .permalink .wrapper {
   background-color: #005a9e;
   background-image: url(http://static.tumblr.com/ro5gmuq/hl7kkujnt/ko3lqkpvh62hmphqop3xnyxi_400.jpg);
 }
-/* line 227, ../sass/japanese.sass */
+/* line 231, ../sass/japanese.sass */
 .post.quote .permalink p a {
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
 }
-/* line 229, ../sass/japanese.sass */
+/* line 233, ../sass/japanese.sass */
 .post.photo {
   border-color: #036f5d;
   text-align: center;
 }
-/* line 232, ../sass/japanese.sass */
+/* line 236, ../sass/japanese.sass */
 .post.photo h2 a:hover, .post.photo p a, .post.photo li a, .post.photo .description a {
   color: #036f5d;
 }
-/* line 234, ../sass/japanese.sass */
+/* line 238, ../sass/japanese.sass */
 .post.photo .permalink {
   background: #005547 url(http://data.tumblr.com/Ko3LqKPvh62hozzgZu9OVB5j_400.jpg);
 }
-/* line 236, ../sass/japanese.sass */
+/* line 240, ../sass/japanese.sass */
 .post.photo .permalink .wrapper {
   background-color: #036f5d;
   background-image: url(http://static.tumblr.com/ro5gmuq/mcXkkuksl/ko3lqkpvh62hpkzqaibyngui_400.jpg);
 }
-/* line 239, ../sass/japanese.sass */
+/* line 243, ../sass/japanese.sass */
 .post.photo .permalink p a {
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
 }
-/* line 241, ../sass/japanese.sass */
+/* line 245, ../sass/japanese.sass */
 .post.video {
   border-color: #cd2855;
 }
-/* line 243, ../sass/japanese.sass */
+/* line 247, ../sass/japanese.sass */
 .post.video h2 a:hover, .post.video p a, .post.video li a, .post.video .description a {
   color: #cd2855;
 }
-/* line 245, ../sass/japanese.sass */
+/* line 249, ../sass/japanese.sass */
 .post.video .permalink {
   background: #b4224a url(http://static.tumblr.com/ro5gmuq/3VSkkukup/ko3lqkpvh62hymxq3h90ynvs_400.jpg);
 }
-/* line 247, ../sass/japanese.sass */
+/* line 251, ../sass/japanese.sass */
 .post.video .permalink .wrapper {
   background-image: url(http://static.tumblr.com/ro5gmuq/8V9kkukvg/ko3lqkpvh62hywr73kpitjcn_100.jpg);
   background-color: #cd2855;
 }
-/* line 250, ../sass/japanese.sass */
+/* line 254, ../sass/japanese.sass */
 .post.video .permalink p a {
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
 }
-/* line 252, ../sass/japanese.sass */
+/* line 256, ../sass/japanese.sass */
 .post.link {
   border-color: #a40e12;
 }
-/* line 254, ../sass/japanese.sass */
+/* line 258, ../sass/japanese.sass */
 .post.link h2 a:hover, .post.link p a, .post.link li a, .post.link .description a {
   color: #a40e12;
 }
-/* line 256, ../sass/japanese.sass */
+/* line 260, ../sass/japanese.sass */
 .post.link .permalink {
   background: #901112 url(http://static.tumblr.com/ro5gmuq/2oRkkukxj/ko3lqkpvh62i1ktcslo7bc3j_400.jpg);
 }
-/* line 258, ../sass/japanese.sass */
+/* line 262, ../sass/japanese.sass */
 .post.link .permalink .wrapper {
   background-image: url(http://static.tumblr.com/ro5gmuq/iXMkkuky6/ko3lqkpvh62i24cuciwg7ril_400.jpg);
   background-color: #a40e12;
 }
-/* line 261, ../sass/japanese.sass */
+/* line 265, ../sass/japanese.sass */
 .post.link .permalink p a {
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
 }
-/* line 263, ../sass/japanese.sass */
+/* line 267, ../sass/japanese.sass */
 .post.conversation {
   border-color: #d5be16;
 }
-/* line 265, ../sass/japanese.sass */
+/* line 269, ../sass/japanese.sass */
 .post.conversation h2 a:hover, .post.conversation p a, .post.conversation li a, .post.conversation .description a {
   color: #d5be16;
 }
-/* line 267, ../sass/japanese.sass */
+/* line 271, ../sass/japanese.sass */
 .post.conversation .permalink {
   background: #bca913 url(http://static.tumblr.com/ro5gmuq/Nwqkkul0v/ko3lqkpvh62i4n4ktapc0dgo_400.jpg);
 }
-/* line 269, ../sass/japanese.sass */
+/* line 273, ../sass/japanese.sass */
 .post.conversation .permalink .wrapper {
   background-image: url(http://static.tumblr.com/ro5gmuq/rSmkkul1l/ko3lqkpvh62i4x45d3dfvgkj_400.jpg);
   background-color: #d5be16;
 }
-/* line 272, ../sass/japanese.sass */
+/* line 276, ../sass/japanese.sass */
 .post.conversation .permalink p a {
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
 }
-/* line 274, ../sass/japanese.sass */
+/* line 278, ../sass/japanese.sass */
 .post.conversation ul {
   list-style: none;
   margin-left: 0;
 }
-/* line 277, ../sass/japanese.sass */
+/* line 281, ../sass/japanese.sass */
 .post.conversation ul li {
   padding: 5px 8px 4px;
 }
-/* line 279, ../sass/japanese.sass */
+/* line 283, ../sass/japanese.sass */
 .post.conversation ul li span {
   color: #444444;
 }
-/* line 281, ../sass/japanese.sass */
+/* line 285, ../sass/japanese.sass */
 .post.conversation ul li.user_1 {
   background: #e7e7cf;
   border-left: 1px #cfcfaf dotted;
 }
-/* line 284, ../sass/japanese.sass */
+/* line 288, ../sass/japanese.sass */
 .post.conversation ul li.user_2 {
   background: transparent;
   border-left: 0;
 }
-/* line 287, ../sass/japanese.sass */
+/* line 291, ../sass/japanese.sass */
 .post.conversation ul li.user_3 {
   background: #f8f8ec;
   border-left: 1px #c3c3ab dotted;
 }
-/* line 290, ../sass/japanese.sass */
+/* line 294, ../sass/japanese.sass */
 .post.audio {
   border-color: #006e9d;
 }
-/* line 292, ../sass/japanese.sass */
+/* line 296, ../sass/japanese.sass */
 .post.audio h2 a:hover, .post.audio p a, .post.audio li a, .post.audio .description a {
   color: #006e9d;
 }
-/* line 294, ../sass/japanese.sass */
+/* line 298, ../sass/japanese.sass */
 .post.audio .permalink {
   background: #005e86 url(http://static.tumblr.com/ro5gmuq/Cf1kkul34/ko3lqkpvh62hfoody7c51yic_400.jpg);
 }
-/* line 296, ../sass/japanese.sass */
+/* line 300, ../sass/japanese.sass */
 .post.audio .permalink .wrapper {
   background-image: url(http://static.tumblr.com/ro5gmuq/PeNkkul3x/ko3lqkpvh62hhconp4bqp28j_400.jpg);
   background-color: #006e9d;
 }
-/* line 299, ../sass/japanese.sass */
+/* line 303, ../sass/japanese.sass */
 .post.audio .permalink p a {
-  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) center center no-repeat;
+  background: transparent url(http://static.tumblr.com/rlw59xo/D2ql1mznu/panda.png) 230px center no-repeat;
 }
-/* line 301, ../sass/japanese.sass */
+/* line 305, ../sass/japanese.sass */
 .post.audio .audio_player {
   margin: 10px auto;
   text-align: center;
 }
 
-/* line 305, ../sass/japanese.sass */
+/* line 309, ../sass/japanese.sass */
 .source {
   margin: 0 80px;
 }
 
-/* line 308, ../sass/japanese.sass */
+/* line 312, ../sass/japanese.sass */
 #pagewrap {
-  margin: 0px 0px 0px 150px;
-  width: 550px;
+  width: 650px;
   float: left;
   position: absolute;
   z-index: 100;
+  margin: 0;
 }
 
-/* line 315, ../sass/japanese.sass */
+/* line 319, ../sass/japanese.sass */
 .text img {
   max-width: 100%;
 }
 
-/* line 319, ../sass/japanese.sass */
+/* line 323, ../sass/japanese.sass */
 .post .permalink .wrapper a.comments {
   color: #444444;
   font-size: 9px;
@@ -2190,7 +2187,7 @@ p {
   top: 27px;
   right: 30px;
 }
-/* line 335, ../sass/japanese.sass */
+/* line 339, ../sass/japanese.sass */
 .post .permalink .wrapper a.notes {
   color: #444444;
   font-size: 9px;
@@ -2209,7 +2206,7 @@ p {
   left: 30px;
 }
 
-/* line 352, ../sass/japanese.sass */
+/* line 356, ../sass/japanese.sass */
 ol.notes {
   color: #444444;
   font-size: 9px;
@@ -2221,7 +2218,7 @@ ol.notes {
   list-style-type: none;
   clear: both;
 }
-/* line 362, ../sass/japanese.sass */
+/* line 366, ../sass/japanese.sass */
 ol.notes a img.avatar {
   max-width: 16px;
   border-width: 0px;
@@ -2229,39 +2226,39 @@ ol.notes a img.avatar {
   padding: 0;
   float: left;
 }
-/* line 368, ../sass/japanese.sass */
+/* line 372, ../sass/japanese.sass */
 ol.notes span.action {
   float: left;
   padding-top: 1px;
   line-height: 18px;
 }
-/* line 372, ../sass/japanese.sass */
+/* line 376, ../sass/japanese.sass */
 ol.notes .clear {
   clear: both;
   height: 1px;
 }
-/* line 375, ../sass/japanese.sass */
+/* line 379, ../sass/japanese.sass */
 ol.notes blockquote {
   padding: 4px 10px;
   margin: 7px 0px 0px 25px;
   font-weight: normal;
 }
-/* line 379, ../sass/japanese.sass */
+/* line 383, ../sass/japanese.sass */
 ol.notes blockquote a {
   text-decoration: none;
 }
-/* line 381, ../sass/japanese.sass */
+/* line 385, ../sass/japanese.sass */
 ol.notes .answer_content {
   font-weight: normal;
 }
 
-/* line 384, ../sass/japanese.sass */
+/* line 388, ../sass/japanese.sass */
 #disqus_thread {
   font-size: 0.5em;
   text-align: left !important;
   padding: 0 5px;
 }
-/* line 388, ../sass/japanese.sass */
+/* line 392, ../sass/japanese.sass */
 #disqus_thread a {
   color: #444444;
   text-align: left !important;
