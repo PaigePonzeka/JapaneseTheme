@@ -1772,7 +1772,7 @@ p {
 .pages {
   text-align: center;
   line-height: 1.8;
-  background: #b9334c url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #b9334c;
   padding: 15px 35px;
 }
 /* line 102, ../sass/japanese.sass */
@@ -1802,14 +1802,14 @@ p {
 
 /* line 121, ../sass/japanese.sass */
 #footer {
-  background: #f0a6c7 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #f0a6c7;
   margin: 0;
   color: #eeeeee;
   border-top: 6px solid #f0a6c7;
 }
 /* line 126, ../sass/japanese.sass */
 #footer .wrapper {
-  background: #b9334c url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #b9334c;
   margin: 0 auto 0;
   overflow: hidden;
   padding: 10px 0 20px;
@@ -1869,11 +1869,11 @@ p {
 }
 /* line 166, ../sass/japanese.sass */
 .post .permalink {
-  background: #c56c36 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #c56c36;
 }
 /* line 168, ../sass/japanese.sass */
 .post .permalink .wrapper {
-  background: #c56c36 url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background: #c56c36 url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   padding: 0 15px;
   position: relative;
 }
@@ -1888,7 +1888,7 @@ p {
 /* line 178, ../sass/japanese.sass */
 .post .permalink p a {
   border: 0;
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
   color: #eeeeee !important;
   display: block;
   text-decoration: none;
@@ -2011,16 +2011,16 @@ p {
 }
 /* line 258, ../sass/japanese.sass */
 .post.quote .permalink {
-  background: #2c5082 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #2c5082;
 }
 /* line 260, ../sass/japanese.sass */
 .post.quote .permalink .wrapper {
   background-color: #2c5082;
-  background-image: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
 }
 /* line 263, ../sass/japanese.sass */
 .post.quote .permalink p a {
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
 /* line 266, ../sass/japanese.sass */
 .post.text {
@@ -2037,16 +2037,16 @@ p {
 }
 /* line 274, ../sass/japanese.sass */
 .post.photo .permalink {
-  background: #237f61 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #237f61;
 }
 /* line 276, ../sass/japanese.sass */
 .post.photo .permalink .wrapper {
   background-color: #237f61;
-  background-image: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
 }
 /* line 279, ../sass/japanese.sass */
 .post.photo .permalink p a {
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
 /* line 282, ../sass/japanese.sass */
 .post.video {
@@ -2058,16 +2058,16 @@ p {
 }
 /* line 286, ../sass/japanese.sass */
 .post.video .permalink {
-  background: #ba3348 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #ba3348;
 }
 /* line 288, ../sass/japanese.sass */
 .post.video .permalink .wrapper {
-  background-image: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #ba3348;
 }
 /* line 291, ../sass/japanese.sass */
 .post.video .permalink p a {
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
 /* line 293, ../sass/japanese.sass */
 .post.video .post-video {
@@ -2085,16 +2085,16 @@ p {
 }
 /* line 302, ../sass/japanese.sass */
 .post.link .permalink {
-  background: #4fa82e url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #4fa82e;
 }
 /* line 304, ../sass/japanese.sass */
 .post.link .permalink .wrapper {
-  background-image: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #4fa82e;
 }
 /* line 307, ../sass/japanese.sass */
 .post.link .permalink p a {
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
 /* line 310, ../sass/japanese.sass */
 .post.conversation {
@@ -2107,16 +2107,16 @@ p {
 }
 /* line 315, ../sass/japanese.sass */
 .post.conversation .permalink {
-  background: #2c5082 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #2c5082;
 }
 /* line 317, ../sass/japanese.sass */
 .post.conversation .permalink .wrapper {
-  background-image: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #2c5082;
 }
 /* line 320, ../sass/japanese.sass */
 .post.conversation .permalink p a {
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
 /* line 322, ../sass/japanese.sass */
 .post.conversation ul {
@@ -2156,16 +2156,16 @@ p {
 }
 /* line 342, ../sass/japanese.sass */
 .post.audio .permalink {
-  background: #ba3348 url(https://dl.dropbox.com/u/11254480/bg-permalink.png);
+  background: #ba3348;
 }
 /* line 344, ../sass/japanese.sass */
 .post.audio .permalink .wrapper {
-  background-image: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png);
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
   background-color: #ba3348;
 }
 /* line 347, ../sass/japanese.sass */
 .post.audio .permalink p a {
-  background: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
 }
 /* line 349, ../sass/japanese.sass */
 .post.audio .audio_player {

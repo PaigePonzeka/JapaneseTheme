@@ -24,9 +24,9 @@ $audio-color: $pink
 $video-color: $pink
 
 
-$permalink-icon: transparent url(https://dl.dropbox.com/u/11254480/koi.gif) center center no-repeat
-$permalink-bg: url(https://dl.dropbox.com/u/11254480/bg-permalink.png)
-$wrapper-bg: url(https://dl.dropbox.com/u/11254480/bg-wrapper.png)
+$permalink-icon: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat
+
+$wrapper-bg: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png)
 
 @mixin set-border($color)
   border-color: lighten($color, 5)
@@ -97,7 +97,7 @@ p
 .pages
   text-align: center
   line-height: 1.8
-  background: $dark-pink $permalink-bg
+  background: $dark-pink
   padding: 15px 35px
   a
     color: #444
@@ -119,12 +119,12 @@ p
 
 
 #footer
-  background: $pale-pink $permalink-bg
+  background: $pale-pink
   margin: 0
   color: #eee
   border-top: 6px solid  $pale-pink
   .wrapper
-    background: $dark-pink $permalink-bg
+    background: $dark-pink
     margin: 0 auto 0
     overflow: hidden
     padding: 10px 0 20px
@@ -164,7 +164,7 @@ p
     padding: 1.2em 15px
     width: $width - 60px
   .permalink
-    background: $orange $permalink-bg
+    background: $orange
     .wrapper
       background: $orange $wrapper-bg
       padding: 0 15px
@@ -256,7 +256,7 @@ p
     p a, li a, .source a
       color: #005a9e
     .permalink
-      background: $quote-color $permalink-bg
+      background: $quote-color
       .wrapper
         background-color: $quote-color
         background-image: $wrapper-bg
@@ -272,7 +272,7 @@ p
     h2 a:hover, p a, li a, .description a
       color: #036f5d
     .permalink
-      background: $photo-color $permalink-bg
+      background: $photo-color 
       .wrapper
         background-color: $photo-color
         background-image: $wrapper-bg
@@ -284,7 +284,7 @@ p
     h2 a:hover, p a, li a, .description a
       color: #cd2855
     .permalink
-      background: $video-color $permalink-bg
+      background: $video-color
       .wrapper
         background-image: $wrapper-bg
         background-color: $video-color
@@ -300,7 +300,7 @@ p
     h2 a:hover, p a, li a, .description a
       color: #a40e12
     .permalink
-      background: $link-color $permalink-bg
+      background: $link-color
       .wrapper
         background-image: $wrapper-bg
         background-color: $link-color
@@ -313,7 +313,7 @@ p
     h2 a:hover, p a, li a, .description a
       color: #d5be16
     .permalink
-      background: $chat-color $permalink-bg
+      background: $chat-color 
       .wrapper
         background-image: $wrapper-bg
         background-color: $chat-color
@@ -340,7 +340,7 @@ p
     h2 a:hover, p a, li a, .description a
       color: #006e9d
     .permalink
-      background: $audio-color $permalink-bg
+      background: $audio-color
       .wrapper
         background-image: $wrapper-bg
         background-color: $audio-color
