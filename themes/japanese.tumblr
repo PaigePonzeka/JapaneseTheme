@@ -319,13 +319,13 @@
         <ul>
           <li class='older'>
           {block:NextPage}
-            <a href="{NextPage}"><< {lang:Older}</a>
+            <a href="{NextPage}">&larr; {lang:Older}</a>
           {/block:NextPage}
           </li>
           <li class='page'>{CurrentPage}/{TotalPages}</li>
           <li class='newer'>
           {block:PreviousPage}
-            <a href="{PreviousPage}">{lang:Newer}>></a>
+            <a href="{PreviousPage}">{lang:Newer}&rarr;</a>
           {/block:PreviousPage}
           </li>
         </ul>
